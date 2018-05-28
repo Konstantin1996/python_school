@@ -1,0 +1,368 @@
+@font-face {
+	font-family: "Fixedsys";
+	src: url(fonts/FSEX300.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Candara";
+	src: url(fonts/Candara.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "CandaraBold";
+	src: url(fonts/Candarab.ttf);
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "CandaraCursive";
+	src: url(fonts/Candarai.ttf);
+	font-style: normal;
+	font-weight: italic;
+}
+
+@font-face {
+	font-family: "CandaraHalfBold";
+	src: url(fonts/Candaraz.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+body{
+	font-family: "Candara";
+	font-size: 16px;
+	padding: 0px;
+	margin: 0px;
+	min-width: 768px;
+}
+
+
+.line-top{
+	height: 5px;
+	min-width: 768px;
+	background-color: #3772a4;
+}
+
+
+
+.main-header-logo {
+	position: absolute;
+	top: 0px;
+	left: -89px;
+}
+
+.main-title {
+	text-align: center;
+	font-size: 48px;
+	margin: 0px;
+	margin-top: 30px;
+	padding: 0px;
+}
+
+.main-slogan {
+	text-align: center;
+	font-size: 16px;
+	margin-top: 8px;
+	padding: 0px;
+}
+
+.main-title .main-title-first-word {
+	color: #366f9e;
+}
+
+.main-title .main-title-second-word {
+	color: #ffd32d;
+}
+
+.main-title,.main-slogan {
+	font-family: "Fixedsys";
+}
+
+.btn {
+	font-family: "CandaraBold";
+	display: block;
+	text-transform: uppercase;
+	border-radius: 4px;
+	line-height: 30px;
+	text-align: center;
+	width: 130px;
+	height: 30px;
+	color:black;
+	text-decoration: none;
+	background-color: #ffd637;
+	border: 2px solid black;
+}
+
+.header-button {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 16px;
+}
+
+.section-header {
+	font-family: "CandaraBold";
+	font-size: 24px;
+}
+
+.reasons-list {
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+
+.reasons-list .reason-element-advantages {
+	font-size:18px;
+}
+
+.reason-btn {
+	width: 182px;
+	height: 38px;
+	line-height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 38px;
+}
+
+
+.btn:hover{
+	background-color: #ffe16e;
+}
+
+.btn:active{
+	background-color: #366f9e;
+}
+
+.visually-hidden {
+	display: none;
+}
+
+.social-list {
+	list-style-type: none;
+	padding:0px;
+}
+
+.footer {
+	height: 168px;
+}
+
+.footer-copyrigths{
+	font-size: 18px;
+}
+
+
+.container {
+	width: 678px;
+	/*position: relative;*/
+	/*border: 1px solid black;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.main-header {
+	background-color: #fffae7;
+	height: 176px;
+}
+
+.section-header {
+	text-align: center;
+	margin: 0px;
+}
+
+.guide-header {
+	margin-top: 18px;
+	margin-bottom: 32px;
+}
+
+.guide-paragraph {
+	margin: 0px;
+	margin-bottom: 22px;
+}
+
+.guide-paragraph:last-child {
+	margin-bottom: 38px;
+}
+
+.reasons-header {
+	margin-bottom: 46px;
+}
+
+.reason-element {
+	margin-left: 72px;
+}
+
+.reason-element-advantages {
+	display: block;
+	position: relative;
+	width: 300px;
+	height: 30px;
+	/*border: 1px solid black;*/
+	margin-bottom: 25px;
+}
+
+.reason-element-advantages::before {
+	content: "";
+	border-radius: 25px;
+	top: -10px;
+	left: -66px;
+	width: 46px;
+	height: 46px;
+	position: absolute;
+	background-color: #ffd638;
+}
+
+.reason-element:nth-child(1) .reason-element-advantages::before {
+	content: "1";
+	font-size: 24px;
+	line-height: 45px;
+	text-align: center;
+}
+
+.reason-element:nth-child(2) .reason-element-advantages::before {
+	content: "2";
+	font-size: 24px;
+	line-height: 45px;
+	text-align: center;
+}
+
+.reason-element:nth-child(3) .reason-element-advantages::before {
+	content: "3";
+	font-size: 24px;
+	line-height: 45px;
+	text-align: center;
+}
+
+.reason-element:last-child {
+	margin-bottom: 48px;
+}
+
+.footer-bottom {
+	background-color: #9ab7ce;
+	position: relative;
+	height: 160px;
+}
+
+.line-bottom{
+	height: 5px;
+	min-width: 768px;
+	background-color: #ffd638;
+}
+
+.social-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 416px;
+	height: 64px;
+	margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-top: 40px;
+}
+
+.social-btn {
+	width: 64px;
+	height: 64px;
+	position: relative;
+	border-radius: 50px;
+	background-color: #366f9e;
+} 
+
+.social-icon {
+	position: absolute;
+}
+
+.social-btn:hover {
+	background-color: #47769d;
+}
+
+.inst-icon {
+	top: 20px;
+	left: 22px;
+}
+
+.vk-icon {
+	top: 23px;
+	left: 18px;
+}
+
+.fb-icon {
+	top: 20px;
+	left: 25px;
+}
+
+.footer-copyrigths {
+	text-align: center;
+}
+
+.group-container {
+	position: relative;
+	width: 410px;
+	height: 136px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-menu {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+	margin-left: 34px;
+	margin-top: 30px;
+	padding: 0px;
+	width: 387px;
+	height: 30px;
+}
+
+.main-menu-element {
+	margin-right: 47px;
+}
+
+.main-menu-link {
+	font-family: "Fixedsys";
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+}
+
+
+.task-header {
+	text-align: center;
+}
+
+
+.form-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.code-window-user-text, .code-window-server-text {
+	width: 320px;
+	height: 200px;
+}
+
+.user-server-btn {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+input[type="submit"] {
+	line-height: 0px;
+}
+
+.ace_editor {
+	height: 206px;
+    width: 317px;
+}
